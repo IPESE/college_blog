@@ -1,0 +1,29 @@
+name: Auto Merge Pull Requests
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Merge Pull Request
+        if: github.event_name == 'pull_request' && github.event.action == 'opened' || github.event.action == 'synchronize'
+        run: |
+          # Define the username of the contributor you want to automatically merge pull requests from
+          contributor_username="exampleusername"
+
+          # Check if the pull request is from the specified contributor
+          if [ "${{ github.event.pull_request.user.login }}" = "$contributor_username" ]; then
+            # Merge the pull request automatically
+            git config --global user.email "github-actions@github.com"
+            git config --global user.name "GitHub Actions"
+            git fetch origin "+refs/pull/${{ github.event.pull_request.number }}/merge"
+            git merge FETCH_HEAD --no-edit
+            git push origin HEAD:${{ github.event.pull_request.base.ref }}
+          fi
