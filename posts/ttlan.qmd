@@ -13,7 +13,7 @@ toc-expand: 5
 image : https://www.tourmag.com/photo/art/grande/58608897-43203032.jpg
 ---
 
-<script src="../resources/scripts/github-members.js" defer></script>
+<script src="../resources/scripts/actionButtons.js" defer></script>
 
 # Coupe du Monde Qatar 2022
 

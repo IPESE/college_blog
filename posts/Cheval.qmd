@@ -13,7 +13,7 @@ toc-expand: 3
 image : ../resources/images/sample.jpeg
 ---
 
-<script src="../resources/scripts/github-members.js" defer></script>
+<script src="../resources/scripts/actionButtons.js" defer></script>
 
 # Titre
 
