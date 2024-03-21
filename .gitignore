@@ -52,3 +52,4 @@ venv
 *.aux
 *.toc
 *.ipynb
+Dockerfile

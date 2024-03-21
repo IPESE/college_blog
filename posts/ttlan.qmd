@@ -5,12 +5,13 @@ date: 2012-12-12
 categories:
   -Sport
 description: Quantité de CO2 libéré pendant la coupe du monde 2022
-comments: true
+comments:
   hypothesis: true
 toc: true
 toc-location: right
 toc-expand: 5
-image : 
+image : https://www.tourmag.com/photo/art/grande/58608897-43203032.jpg
+---
 
 <script src="../resources/scripts/github-members.js" defer></script>
 
