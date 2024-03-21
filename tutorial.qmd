@@ -60,9 +60,7 @@ toc-expand: 3
 image : ../resources/images/sample.jpeg
 ---
 
-```{=html}
 <script src="../resources/scripts/github-members.js" defer></script>
-```
 
 # Titre
 

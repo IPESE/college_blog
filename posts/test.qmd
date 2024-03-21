@@ -13,9 +13,7 @@ toc-expand: 3
 image : ../resources/images/sample.jpeg
 ---
 
-```{=html}
 <script src="../resources/scripts/actionButtons.js"></script>
-```
 
 ## Simple chart
 #### Create a python virtual environment to download python packages you'll use in your script
