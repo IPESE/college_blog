@@ -14,7 +14,7 @@ image : ../resources/images/sample.jpeg
 ---
 
 ```{=html}
-<script src="../../resources/scripts/actionButtons.js"></script>
+<script src="../resources/scripts/actionButtons.js"></script>
 ```
 
 ## Simple chart

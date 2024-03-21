@@ -59,6 +59,19 @@ toc-location: left
 toc-expand: 3
 image : ../resources/images/sample.jpeg
 ---
+
+```{=html}
+<script src="../resources/scripts/github-members.js" defer></script>
+```
+
+# Titre
+
+contenu
+
+## Sous titre
+
+contenu
+
 ```
 Vous pouvez également modifier l'image qui apparaît sur la liste.
 
